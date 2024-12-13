@@ -6,7 +6,7 @@ export default function LandingPage() {
     return (
         <div className={style.greet}>
             <div className={style.greett}>
-                <h2>Bienvenidos a mi PI de paises</h2>
+                <h3>Bienvenidos a mi PI de paises</h3>
                 <Link to="/home"><button>Ingresar</button></Link >
             </div>
         </div>
