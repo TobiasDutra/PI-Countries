@@ -1,0 +1,68 @@
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+.activado{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+    color: #00b4d8;
+    border-color: #00b4d8;
+    box-shadow: 0 5px 5px rgb(0, 36, 143);
+    transform: translateY(4px);
+}
+
+.desactivado {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+    color: #00b4d8;
+    border-color: #eee;
+}
+
+.texto{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 900;
+    color:#00b4d8;
+}
+
+.flechas{
+    width: 60px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+    color: #0077b6;
+    border-color: #eee;
+}
+
+.flechas:active{
+    font-weight: 900;
+    border-color: #023e8a;
+    background: white;
+    color: #023e8a;
+    box-shadow: 0 5px 5px rgb(1, 29, 154);
+    transform: translateY(4px);
+}

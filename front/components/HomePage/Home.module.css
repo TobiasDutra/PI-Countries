@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    column-gap: 7rem;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+} 
+
+.contTop{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.card{
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 53px -20px rgb(2, 2, 2);
+}
+
+.contSelect{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.select{
+    height: 45px;
+    width: 20%;
+    border: 1px solid var(--select-border);
+    border-radius: 1em;
+    padding: 0.25em 0.5em;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(184, 229, 245);
+    box-shadow: #009dff  0px 1px 3px;
+  }
+
+  .createActividad{
+    margin: 5px;
+    margin-left: 3rem;
+    background: #42d6ff;
+    border: 1px solid #42a4ff;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 12px 14px;
+    text-align: center;
+    user-select: none;
+  }
+
+  .reset{
+    background: #5cd7f9;
+    border-radius: 1em;
+  }

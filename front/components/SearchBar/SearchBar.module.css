@@ -1,0 +1,18 @@
+.content{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.input{
+    /* margin-left: 100px; */
+    width: 380px;
+    color: rgb(36, 35, 42);
+    border: 2px solid #42a4ff;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 28px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    box-shadow: rgba(243, 0, 0, 0.6) 0px 1px 3px;
+    background: rgb(251, 251, 251);
+}

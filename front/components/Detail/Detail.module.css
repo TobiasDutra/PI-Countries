@@ -1,0 +1,59 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    width: 55vw;
+    overflow: auto;
+    border-radius: 30px;
+    background-color: rgb(111, 187, 222);
+    box-shadow: 0px 0px 53px -20px rgb(2, 2, 2);
+    transition: all ease-in-out .4s;
+
+    font-family: "Francois One", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    font-family: Candal, sans-serif;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+    margin: 10px 0px 25px 0px;
+}
+
+.activity{
+    background-color: #0937dc;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contActivities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
